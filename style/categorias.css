@@ -1,0 +1,222 @@
+.main #categorias{
+    width: 95%;
+    height: auto;
+    display: flex;
+    min-height: 38.4vh;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    margin-top: 3vh;
+    box-sizing: border-box;
+}
+
+#categorias h2{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+#categorias .cabecalho{
+	width: 100%;
+	height: auto;
+	background-color: #090909;
+	border-radius: 1vw;
+	box-shadow: 0px 0px 15px #09090980;
+	padding: 2.5vh 2vw;
+}
+
+#categorias .cabecalho h2{	
+	margin: 0px;
+	font-size: 15px;
+	display: flex;
+	color: #808080;
+	align-items: center;
+	justify-content: left;
+}
+
+#categorias .cabecalho h2 img{
+	width: 16px;
+	margin-right: 5px;
+}
+
+#categorias .cabecalho h2 a{
+	text-decoration: none;
+	color: #808080;
+	transition: 0.3s all;
+}
+
+#categorias .cabecalho h2 a:hover{
+	color: #dd0000;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+#categorias .ads{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	margin-top: 5vh;
+}
+
+#categorias .ads img{
+	width: 50vw;
+	border-radius: 1vh;
+	box-shadow: 0px 0px 15px #09090980;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+#categorias .postagens .topo{
+	margin-top: 4vh;
+	background-color: #090909;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1vh 2vw;
+	border-radius: 1.1vw;
+}
+
+#categorias .postagens .topo h3{
+	margin: 2vh 0px;
+}
+
+#categorias .postagens .topo button{
+	border: 0;
+	background-color: #dd0000;
+	padding: 1.7vh 2vw;
+	border-radius: 2vw;
+	color: white;
+	cursor: pointer;
+	font-weight: 700;
+	transition: 0.3s all;
+}
+
+#categorias .postagens .topo button:hover{
+	box-shadow: 0px 0px 15px 1px #ff000080;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+#categorias .postagens{
+	margin-top: 1vh;
+	width: 100%;
+}
+
+#categorias .postagens .painel{
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: #090909;
+	padding: 25px 18px;
+	padding-bottom: 15px;
+	margin-top: 3vh;
+	border-radius: 10px;
+	box-shadow: 0px 0px 12px #09090980;
+}
+
+#categorias .postagens .painel .topico{
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	background-color: #10101060;
+	border-radius: 10px;
+	padding: 20px 20px;
+	margin-bottom: 10px;
+	transition: 0.25s all;
+}
+
+#categorias .postagens .painel #aprovar{
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	background-color: #20090980;
+	border-radius: 10px;
+	padding: 20px 20px;
+	margin-bottom: 10px;
+	transition: 0.25s all;
+}
+
+#categorias .postagens .painel .topico:hover{
+	background-color: #111111;
+	box-shadow: 0px 0px 15px #080808;
+}
+
+#categorias .postagens .painel .topico img{
+	width: 3.4vw;
+	height: 3.4vw;
+	border-radius: 2vw;
+	margin-right: 1.2vw;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+#categorias .postagens .painel .topico .conteudo-topico h4{
+	margin: 0px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+}
+
+#categorias .postagens .painel .topico .conteudo-topico img{
+	width: 22px;
+	height: 22px;
+	margin-right: 5px;
+	border-radius: 10px;
+}
+
+#categorias .postagens .painel a{
+	text-decoration: none;
+	color: white;
+	height: 50%;
+	transition: 0.3s all;
+}
+
+#categorias .postagens .painel  a:hover{
+	color: #dd0000;
+}
+
+#categorias .postagens .painel .topico .conteudo-topico .descricao{
+	margin: 0px;
+	color: #808080;
+	font-size: 13px;
+}
+
+#categorias .postagens .painel .conteudo-topico .descricao a{
+	text-decoration: none;
+	color: #808080;
+	transition: 0.3s all;
+}
+
+#categorias .postagens .painel .conteudo-topico .descricao a:hover{
+	color: #dd0000;
+}
+#categorias .postagens .painel .topico .conteudo-topico p{
+	font-weight: 500;
+	font-size: 15px;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+#categorias .postagens .painel .topico .conteudo-topico .lastresposta{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+#categorias .postagens .painel .topico .conteudo-topico .lastresposta a{
+	width: auto;
+	height: auto;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	color: #808080;
+	font-weight: 500;
+	font-size: 13px;
+	transition: 0.3s all;
+}
+
+#categorias .postagens .painel .topico .conteudo-topico .lastresposta a:hover{
+	color: #dd0000;
+}
+
+#categorias .postagens .painel .topico .conteudo-topico .lastresposta a img{
+	width: 2vw;
+	height: 2vw;
+	margin-right: 1vw;
+	border-radius: 1vw;
+}

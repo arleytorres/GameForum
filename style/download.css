@@ -1,0 +1,18 @@
+.main #downloads{
+    width: 90%;
+    height: auto;
+    display: flex;
+    min-height: 38.4vh;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    margin-top: 3vh;
+    box-sizing: border-box;
+}
+
+#downloads h2{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+}

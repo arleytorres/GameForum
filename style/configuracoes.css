@@ -1,0 +1,259 @@
+.main #config{
+    width: 95%;
+    height: auto;
+    display: flex;
+    min-height: 49vh;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3vh;
+    box-sizing: border-box;
+}
+
+#modal-email, #modal-senha{
+	width: 500px;
+	height: auto;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #161616;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 5px #101010;
+	position: fixed;
+}
+
+#modal-email .cabecalho, #modal-senha .cabecalho{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #202020;
+}
+
+#modal-email .prompt, #modal-senha .prompt{
+	display: none;
+	width: 85%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin-bottom: 7px;
+}
+
+#modal-email .options, #modal-senha .options{
+	width: 95%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: right;
+	padding: 10px 0px;
+}
+
+#modal-email #console-email, #modal-senha #console-senha{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	margin-top: 10px;
+	padding: 3px 6px;
+	font-size: 12px;
+	background-color: #161616;
+	border-radius: 4px;
+	text-align: center;
+	color: white;
+	display: none;
+}
+
+#modal-email h3, #modal-senha h3{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 0px
+}
+
+#modal-email label, #modal-senha label{
+	font-size: 12px;
+	color: rgb(180, 180, 180);
+}
+
+#modal-email input, #modal-senha input{
+	width: 100%;
+	padding: 9px 8px;
+	background-color: #282828;
+	border-radius: 5px;
+	font-size: 14px;
+	color: white;
+	outline: none;
+	border: 0;
+	margin-top: 2px;
+}
+
+#modal-email #email, #modal-senha #nova-senha, #modal-senha #confirm-senha{
+	margin-bottom: 8px;
+}
+
+#modal-senha #confirm-senha{
+	margin-bottom: 20px;
+}
+
+#modal-email button, #modal-senha button{
+	background-color: transparent;
+	padding: 2px 5px;
+	border-radius: 5px;
+	border: 0;
+	color: #999999;
+	font-weight: bold;
+	margin-left: 8px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+#modal-email button:hover, #modal-senha button:hover{
+	color: white;
+}
+
+
+
+.main #config .navegador{
+	width: 100%;
+	height: auto;
+	background-color: #090909;
+	padding: 13px 20px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 12px #08080899;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.main #config .navegador p{
+	margin: 0px;
+	color: #aaaaaa;
+	font-weight: 500;
+}
+
+.main #config .navegador p a{
+	text-decoration: none;
+	color: #aaaaaa;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+
+.main #config .navegador p a:hover{
+	color: #dd0000;
+}
+
+.main #config .ads{
+	margin-top: 4vh;
+}
+
+.main #config .ads img{
+	width: 55vw;
+}
+
+.main #config h2{
+	margin: 0px;
+	margin-top: 4vh;
+}
+
+.main #config .paineis{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.main #config .paineis nav{
+	width: 25%;
+	height: auto;
+	margin-right: 2%;
+	margin-top: 4vh;
+}
+
+.main #config .paineis aside{
+	width: 73%;
+	height: auto;
+	margin-top: 4vh;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.main #config .paineis nav .categorias{
+	width: 100%;
+	height: auto;
+	background-color: #090909;
+	border-radius: 12px;
+	box-shadow: 0px 0px 13px #08080899;
+	padding: 20px;
+}
+
+.main #config .paineis aside .painel{
+	width: 100%;
+	min-height: 35vh;
+	background-color: #090909;
+	padding: 15px 20px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 13px #08080899;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.main #config .paineis nav .categorias ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.main #config .paineis nav .categorias ul li{
+	display: flex;
+	align-items: center;
+	padding: 10px 10px;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.25s all;
+}
+
+.main #config .paineis nav .categorias ul li:hover{
+	background-color: #101010;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.main #config .paineis aside .painel table{
+	width: 100%;
+	height: 100%;
+}
+
+.main #config .paineis aside .painel table tbody{
+	display: flex;
+	flex-direction: column;
+}
+
+.main #config .paineis aside .painel table tr{
+	height: auto;
+	padding: 15px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 15px;
+	border-bottom: 1px solid #151515;
+}
+
+.main #config .paineis aside .painel table tr td{
+	padding: 0px 10px;
+}
+
+.main #config .paineis aside .painel table button{
+	border: 0px;
+	background-color: transparent;
+	font-weight: 500;
+	padding: 10px 13px;
+	color: #aaaaaa;
+	border-radius: 15px;
+	transition: 0.25s all;
+	cursor: pointer;
+}
+
+.main #config .paineis aside .painel table button:hover{
+	background-color: #101010;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
