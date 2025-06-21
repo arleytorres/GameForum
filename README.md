@@ -17,8 +17,8 @@ Um projeto pessoal feito para conectar jogadores de uma comunidade, proporcionan
 
 ## 🧱 Stack tecnológica
 
-- **Backend**: PHP, JavaScript
-- **Frontend**: Html, CSS
+- **Backend**: PHP
+- **Frontend**: Html, CSS, JavaScript
 - **Banco de dados**: MySql
 
 ---
