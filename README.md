@@ -1,4 +1,4 @@
-# 🕹️ GameForum
+# 🕹️ Game Forum
 
 Um projeto pessoal feito para conectar jogadores de uma comunidade, proporcionando discussões épicas e compartilhamento de experiências.
 
@@ -10,7 +10,7 @@ Um projeto pessoal feito para conectar jogadores de uma comunidade, proporcionan
 
 - **Tópicos & respostas**: Crie discussões e troque ideias de forma organizada.
 - **Categorias personalizadas**: Separação por categorias como Regras, Discussão, Denúncia e mais.
-- **Perfis com avatares**: Personalize sua identidade no fórum.
+- **Perfis com banners avatares**: Personalize sua identidade no fórum.
 - **Responsivo e leve**: Funciona bem em qualquer dispositivo.
 
 ---
